@@ -1,0 +1,112 @@
+body {
+    padding: 30PX;
+    background: /* Old browsers */
+    background: rgb(236,232,157); /* FF3.6-15 */
+    background: -moz-radial-gradient(center, ellipse cover, rgb(128 255 237) 0%,rgb(153 191 62 / 62%) 50%,rgb(0 147 15) 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: -webkit-radial-gradient(center, ellipse cover, rgb(128 255 237) 0%,rgb(153 191 62 / 62%) 50%,rgb(0 147 15) 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    background: radial-gradient(ellipse at center, rgb(128 255 237) 0%,rgb(153 191 62 / 62%) 50%,rgb(0 147 15) 100%);
+    
+}
+.block{ 
+    
+    height: 190px;
+    border-radius: 25px;
+    box-shadow: 0 0 10px #000;
+    background: rgb(0, 0, 0);
+        /* Old browsers */
+        background: rgb(53,233,110);
+        /* FF3.6-15 */
+        background: -moz-linear-gradient(top, rgb(53 233 110) 0%,rgb(255 248 22) 50%,rgb(24 174 181) 100%);
+        /* Chrome10-25,Safari5.1-6 */
+        background: -webkit-linear-gradient(top,rgb(53 233 110) 0%,rgb(255 248 22) 50%,rgb(24 174 181) 100%);
+        /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        background: linear-gradient(to bottom, rgb(53 233 110) 0%,rgb(255 248 22) 50%,rgb(24 174 181) 100%);
+        }
+        .block1{
+            width: 155px;
+            padding: 30PX;
+            height: 50px;
+    border-radius: 75px;
+    box-shadow: 0 0 10px #000;
+
+    background: rgb(0, 0, 0);
+        /* Old browsers */
+        background: rgb(53,233,110);
+        /* FF3.6-15 */
+        background: -moz-linear-gradient(top, rgb(53 233 110) 0%,rgb(255 248 22) 50%,rgb(24 174 181) 100%);
+        /* Chrome10-25,Safari5.1-6 */
+        background: -webkit-linear-gradient(top,rgb(53 233 110) 0%,rgb(255 248 22) 50%,rgb(24 174 181) 100%);
+        /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        background: linear-gradient(to bottom, rgb(53 233 110) 0%,rgb(255 248 22) 50%,rgb(24 174 181) 100%)
+        }
+        .block2{
+            width: 155px;
+            padding: 30PX;
+            height: 50px;
+    border-radius: 75px;
+    box-shadow: 0 0 10px #000;
+
+    background: rgb(0, 0, 0);
+        /* Old browsers */
+        background: rgb(53,233,110);
+        /* FF3.6-15 */
+        background: -moz-linear-gradient(top, rgb(53 233 110) 0%,rgb(255 248 22) 50%,rgb(24 174 181) 100%);
+        /* Chrome10-25,Safari5.1-6 */
+        background: -webkit-linear-gradient(top,rgb(53 233 110) 0%,rgb(255 248 22) 50%,rgb(24 174 181) 100%);
+        /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        background: linear-gradient(to bottom, rgb(53 233 110) 0%,rgb(255 248 22) 50%,rgb(24 174 181) 100%)
+        }
+        .block3{
+            width: 155px;
+            padding: 30PX;
+            height: 50px;
+    border-radius: 75px;
+    box-shadow: 0 0 10px #000;
+
+    background: rgb(0, 0, 0);
+        /* Old browsers */
+        background: rgb(53,233,110);
+        /* FF3.6-15 */
+        background: -moz-linear-gradient(top, rgb(53 233 110) 0%,rgb(255 248 22) 50%,rgb(24 174 181) 100%);
+        /* Chrome10-25,Safari5.1-6 */
+        background: -webkit-linear-gradient(top,rgb(53 233 110) 0%,rgb(255 248 22) 50%,rgb(24 174 181) 100%);
+        /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        background: linear-gradient(to bottom, rgb(53 233 110) 0%,rgb(255 248 22) 50%,rgb(24 174 181) 100%)
+        }
+        .block4{
+            width: 155px;
+            padding: 30PX;
+            height: 50px;
+    border-radius: 75px;
+    box-shadow: 0 0 10px #000;
+
+    background: rgb(0, 0, 0);
+        /* Old browsers */
+        background: rgb(53,233,110);
+        /* FF3.6-15 */
+        background: -moz-linear-gradient(top, rgb(53 233 110) 0%,rgb(255 248 22) 50%,rgb(24 174 181) 100%);
+        /* Chrome10-25,Safari5.1-6 */
+        background: -webkit-linear-gradient(top,rgb(53 233 110) 0%,rgb(255 248 22) 50%,rgb(24 174 181) 100%);
+        /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        background: linear-gradient(to bottom, rgb(53 233 110) 0%,rgb(255 248 22) 50%,rgb(24 174 181) 100%)
+        }
+        .block5{
+            width: 155px;
+            padding: 30PX;
+            height: 50px;
+    border-radius: 75px;
+    box-shadow: 0 0 10px #000;
+
+    background: rgb(0, 0, 0);
+        /* Old browsers */
+        background: rgb(53,233,110);
+        /* FF3.6-15 */
+        background: -moz-linear-gradient(top, rgb(53 233 110) 0%,rgb(255 248 22) 50%,rgb(24 174 181) 100%);
+        /* Chrome10-25,Safari5.1-6 */
+        background: -webkit-linear-gradient(top,rgb(53 233 110) 0%,rgb(255 248 22) 50%,rgb(24 174 181) 100%);
+        /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        background: linear-gradient(to bottom, rgb(53 233 110) 0%,rgb(255 248 22) 50%,rgb(24 174 181) 100%)
+        }
+        

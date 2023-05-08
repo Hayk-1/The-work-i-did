@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="bottom.css">
+    <link rel="stylesheet" href="bootstrap.min.css" style="color: black;">
+    <title>Hayk CV</title>
+</head>
+<body id="body" style="background-image: url(photo5.jpg);" class="container">
+    <table>
+    <thead>
+    <tr>
+    <th colspan="3">
+    <div class=" block">
+            <h1 align="right" style="font-size : 4em; color: black;"> 
+            <img style="width:280px;  "align="left" src="photo.jpg" alt="portrait"> Hayk Kolyan
+            <h3 align="right" style="font-size : 30px; color: black;"> <dfn><h1>  QA Engineer</h1>
+            </dfn>
+            </h3>
+            </h1>
+    </div>
+    </th>
+    </tr>
+    </thead>
+    <tr>
+    <td>
+    <div class="block1">    
+        <span>
+            <h1 style="color: black;">Contact</h1>
+        </span>
+    </div>
+    <ul style="color: honeydew;">
+        <li><P>Erevan</P></li>
+        <li><p>+374-94-83-92-93</p></li>
+        <li><p>haykkolyan@gmail.com</p></li>
+    </ul>
+    <div class="block2"style="color: black;">
+        <h1 style="color: black;"><span>Experience</span></margin-left>
+    </div><br></h1>
+    <span style="color:honeydew">GALAXY GROUP OF COMPANIES
+        <br> January 2017 - Present</span>
+    </div>
+    <div class="block3">
+        <h1 style="color: black;">Skills</h1>
+    </div>
+    <ul style="color: honeydew;">
+    <li><p align="justify">Bug Tracking Tools: JIRA
+        Information Technologies:</li>
+        <li> Computer architecture,
+        operating systems,
+        computer networks,</li>
+        <li> DB management systems
+        (MS SQL Server), 
+        and cloud systems.</li>
+    </p>
+    </ul>
+    <div class="block5">
+        <h1 style="color: black;">Languages</h1>
+    </div>
+    <ul style="color: #f0fff0;">
+    <li><P>Armenian</P></li>
+    <li><p>Russian</p></li>
+    <li><p>English</p></li>
+    </ul>
+    <div style="padding-left:10px">
+    </div>
+    </td>
+    <td style="width: 300px; ;"></td>
+    <td>
+    <div class="block4">
+        <div class="row">
+                <div class="col" style="width: 355px; ">
+                <div class="block4">
+                    <h1 style="color: black;">Education</h1>
+                </div>
+                <ul style="color: honeydew;">
+                <li><p align="justify">Software Testing Fundamentals <br> - Extended version
+                    ArmSTQB and Station Edu HUB
+                    Nov 2022 <br> - Present
+                    The training consisted of the following 5 parts:</p></li>
+                <li><p align="justify">Software Testing Fundamentals - Extended version
+                    ArmSTQB and Station Edu HUB
+                    Nov 2022 - Present
+                    The training consisted of the following 5 parts:</p></li>
+                <li><p align="justify">Software Testing Fundamentals, included the
+                    fundamental concepts, methods, tools, and
+                    processes of software testing. During the training,
+                    we became familiar with static and dynamic
+                    (black box, white box, and experience-based) test
+                    techniques and applied them to the real
+                    project.
+                    Practical work included in the STF phase:
+                    Bug reporting (using Jira) for the following system:
+                    Buildern
+                    Test Design and execution (using TestRail) for the
+                    following system: Linkedin, SHEMM</p></li>
+                </ul>
+            <a href="haykCV2.html"><Img src="linkedinlogo.jpeg" alt="Linkedin" align="right" style="height: 50px;"> </a>
+                <div class="dropdown" id="id" style="margin-bottom: 1px;">
+                <button class="dropbtn">Dropdown</button>
+            <div class="dropdown-content">
+                    <a style="font-size: 15px;"href="https://getbootstrap.com/docs/5.0/getting-started/introduction/">Boostrap </a>
+                    <a style="font-size: 15px;" href="https://bootswatch.com/">Bootswatch</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    </td>
+</tr>
+</table>
+
+<h1>Temperature Converter</h1>
+
+<select id="conversionType">
+  <option value="celsiusToFahrenheit">Celsius to Fahrenheit</option>
+  <option value="fahrenheitToCelsius">Fahrenheit to Celsius</option>
+</select>
+<br><br>
+<input style="width: 48%;" type="text" id="temperature" onchange ="convertTemperature(this)">
+<button onclick="convertTemperature(this)">Convert</button>
+<br><br>
+
+<!-- // CV -->
+    <div>
+      <label>City:</label>
+      <span id="city"></span>
+    </div>
+    <div>
+      <label>Phone:</label>
+      <span id="phone"></span>
+    </div>
+    <div>
+        <label>email:</label>
+        <span id="email"></span>
+    </div>
+    <div>
+        <label>languages:</label>
+        <span id="languages"></span>
+    </div>
+
+<script> 
+
+function convertTemperature(input) {
+
+  var conversionType = document.getElementById("conversionType").value;
+  var temperature = parseFloat(document.getElementById("temperature").value);
+  var result = document.getElementById("result");
+
+  if (conversionType === "celsiusToFahrenheit") {
+    var fahrenheit = (temperature * 1.8) + 32;
+    input.value = fahrenheit + "  Fahrenheit";
+  } else if (conversionType === "fahrenheitToCelsius") {
+    var celsius = (temperature - 32) / 1.8;
+    input.value =  celsius + "  Celsius";
+  }
+}
+    window.alert("Never without a smile");
+    document.body.style.backgroundImage = "url('photo4.jpg')";
+        var h1Tags = document.querySelectorAll('h1');
+  for (var i = 0; i < h1Tags.length; i++) {
+    h1Tags[i].style.color = 'white';
+  }
+  const userJson={
+    document , getElementById(JSON) { innerText= userJson.email }
+  } 
+  const cvData={
+        "city": "Erevan",
+        "phone": "+37494839293",
+        "email": "haykkolyan@gmail.com",
+        "languages": ["Armenian", "English", "Russian"] ,
+
+      }
+      const city = document.getElementById("city");
+      city.innerText = cvData.city;
+      
+      const phone = document.getElementById("phone");
+      phone.innerText = cvData.phone;
+
+      const email = document.getElementById("email");
+      email.innerText = cvData.email;
+
+      const languages = document.getElementById("languages");
+      languages.innerText = cvData.languages[0]+" "+ cvData.languages[1]
+
+      console.log(cvData);
+</script>
+</body>
+</html>

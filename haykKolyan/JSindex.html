@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript</title>
+</head>
+<body>
+    <h1 id="change">Object:</h1>
+    <p id="object"></p>
+    <h1>Array:</h1>
+    <p id="Array"></p>
+    <script>
+        document.getElementById("change").innerText = "Objects & Array's";
+        console.log(document.getElementById("change").innerText);
+
+        // object
+        const object={name:"Hayk",lastname:"Kolyan",where:"lives in",city:"Erevan",age: 27 };
+        document.getElementById("object").innerHTML =
+        object.name + " " + 
+        object.lastname + " "+
+        object.where +" "+ 
+        object.city+" "+
+        object.age + "years old";
+        
+        console.log(object.name + " " + 
+        object.lastname + " "+
+        object.where +" "+ 
+        object.city+" "+
+        object.age + " years old");
+         
+        // Array
+        const text = ["Hayk ","Kolyan ","Erevan"];
+        // document.getElementById("Array").innerHTML = text.push(array);  
+        document.getElementById("Array").innerHTML = text;
+        console.log(text[0],text[1],text[2]);
+        
+        // undefined
+        let um;
+        console.log(um)
+
+        // null
+        let sd="null";
+        console.log(sd)
+
+        //Number
+        let x = 715;
+        let y = 5;
+        console.log(x + y * 5 );
+
+        //String 
+        let text1 = "Name";
+        let text2 = "Lastname";
+        let text3 = "Hobbies";
+
+        console.log(text1 + " " + text2 +" "+ text3);
+        
+
+
+    </script>
+</body>
+</html>
